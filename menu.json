@@ -10,14 +10,13 @@
             "template": {
                "type": "separate",
                "layout": "3,0,2,3",
-               "icon": "msx-white-soft:tv",
                "color": "msx-glass"
             },
             "items": [
                {
                   "title": "TV1",
                   "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RTM_TV1_logo_2013.png",
-                  "action": "link:browser:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+                  "action": "link:web:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
                },
                {
                   "title": "TV2",
