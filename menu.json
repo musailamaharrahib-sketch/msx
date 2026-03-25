@@ -1,20 +1,17 @@
 {
-    "headline": "Menu Saya",
+    "headline": "Test MSX",
     "menu": [
         {
-            "icon": "link",
-            "label": "📺 Unifi TV",
+            "icon": "movie",
+            "label": "Video Test",
             "data": {
-                "type": "link",
-                "url": "https://unifitv.com.my/"
-            }
-        },
-        {
-            "icon": "info",
-            "label": "ℹ️ Panduan",
-            "data": {
-                "type": "info",
-                "description": "Guna remote untuk navigasi.\nTekan OK untuk pilih.\n\nUnifi TV akan dibuka dalam pelayar TV. Navigasi dalam Unifi TV bergantung pada aplikasi tersebut."
+                "type": "pages",
+                "items": [
+                    {
+                        "title": "Contoh Video",
+                        "action": "video:https://msx.benzac.de/media/video1.mp4"
+                    }
+                ]
             }
         }
     ]
