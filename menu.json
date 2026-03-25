@@ -1,9 +1,25 @@
 {
-    "headline": "Test",
-    "menu": [
-        {
-            "label": "TV1",
-            "action": "https://www.tvmalaysia.live/channel/tv1"
-        }
-    ]
+   "type": "pages",
+   "headline": "Links",
+   "template": {
+      "tag": "Web",
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "icon": "msx-white-soft:public",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+         "title": "Link 1",
+         "action": "link:http://benzac.de"
+      },
+      {
+         "title": "Link 2",
+         "action": "link:http://msx.benzac.de/info/"
+      },
+      {
+         "title": "Link 3",
+         "action": "link:window:http://msx.benzac.de/info/"
+      }
+   ]
 }
