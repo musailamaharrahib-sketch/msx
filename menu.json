@@ -3,20 +3,21 @@
    "menu": [
       {
          "icon": "tv",
-         "label": "Saluran",
+         "label": "Semua Saluran",
          "data": {
             "type": "list",
             "headline": "Pilih Saluran",
             "template": {
                "type": "separate",
                "layout": "3,0,2,3",
+               "icon": "msx-white-soft:tv",
                "color": "msx-glass"
             },
             "items": [
                {
                   "title": "TV1",
                   "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RTM_TV1_logo_2013.png",
-                  "action": "link:window:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+                  "action": "link:browser:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
                },
                {
                   "title": "TV2",
@@ -51,7 +52,7 @@
                {
                   "title": "Astro Awani",
                   "image": "https://de-digital-fortress-stg-assets.eco.astro.com.my/staging/14333fce30cb44c2dcceb9e240fb4776.png",
-                  "action": "link:window:https://kakjem.unusualperson.com/awani.html?t=1745595182"
+                  "action": "video:https://mifntechnology.github.io/siaranMy/channels/AstroAwani/index.m3u8"
                },
                {
                   "title": "Bernama TV",
@@ -77,6 +78,11 @@
                   "title": "TV AlHijrah",
                   "image": "https://tvalhijrah.com/wp-content/uploads/2023/04/TV_Alhijrah_logo-1.png",
                   "action": "link:window:https://kakjem.unusualperson.com/alhijrah.html?t=1745595182"
+               },
+               {
+                  "title": "TV Ikim",
+                  "image": "https://mifntechnology.github.io/siaranMy/logo/TvIkim.png",
+                  "action": "video:https://mifntechnology.github.io/siaranMy/channels/TvIkim/index.m3u8"
                },
                {
                   "title": "Oasis",
