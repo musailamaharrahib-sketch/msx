@@ -1,25 +1,37 @@
 {
-   "type": "pages",
-   "headline": "Links",
-   "template": {
-      "tag": "Web",
-      "type": "separate",
-      "layout": "0,0,2,3",
-      "icon": "msx-white-soft:public",
-      "color": "msx-glass"
-   },
-   "items": [
-      {
-         "title": "TV1",
-         "action": "link:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
-      },
-      {
-         "title": "Link 2",
-         "action": "link:http://msx.benzac.de/info/"
-      },
-      {
-         "title": "Link 3",
-         "action": "link:window:http://msx.benzac.de/info/"
-      }
-   ]
+    "headline": "TV Malaysia",
+    "menu": [
+        {
+            "icon": "tv",
+            "label": "Saluran TV",
+            "data": {
+                "type": "pages",
+                "headline": "Pilih Saluran",
+                "template": {
+                    "type": "separate",
+                    "layout": "0,0,2,4",
+                    "icon": "msx-white-soft:tv",
+                    "color": "msx-glass"
+                },
+                "items": [
+                    {
+                        "title": "TV1",
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv1"
+                    },
+                    {
+                        "title": "TV2",
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv2"
+                    },
+                    {
+                        "title": "TV3",
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv3live"
+                    },
+                    {
+                        "title": "Astro Ria",
+                        "action": "link:window:https://www.tvmalaysia.live/channel/astroria"
+                    }
+                ]
+            }
+        }
+    ]
 }
