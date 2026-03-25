@@ -1,21 +1,25 @@
 {
-    "headline": "Menu Saya",
-    "menu": [
-        {
-            "icon": "link",
-            "label": "📺 Unifi TV",
-            "data": {
-                "type": "link",
-                "url": "https://unfitv.com.my"
-            }
-        },
-        {
-            "icon": "info",
-            "label": "ℹ️ Panduan",
-            "data": {
-                "type": "info",
-                "description": "Guna remote untuk navigasi.\nTekan OK untuk pilih.\n\nUnifi TV akan dibuka dalam pelayar TV. Navigasi dalam Unifi TV bergantung pada aplikasi tersebut."
-            }
-        }
-    ]
+   "type": "pages",
+   "headline": "Links",
+   "template": {
+      "tag": "Web",
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "icon": "msx-white-soft:public",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+         "title": "TV1",
+         "action": "link:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+      },
+      {
+         "title": "Link 2",
+         "action": "link:http://msx.benzac.de/info/"
+      },
+      {
+         "title": "Link 3",
+         "action": "link:window:http://msx.benzac.de/info/"
+      }
+   ]
 }
