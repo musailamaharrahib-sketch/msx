@@ -16,7 +16,7 @@
                {
                   "title": "TV1",
                   "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RTM_TV1_logo_2013.png",
-                  "action": "link:external:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+                  "action": "link:browser://https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
                },
                {
                   "title": "TV2",
