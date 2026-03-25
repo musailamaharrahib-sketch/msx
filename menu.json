@@ -3,39 +3,29 @@
     "menu": [
         {
             "icon": "tv",
-            "label": "TV1",
+            "label": "Saluran TV",
             "data": {
                 "type": "pages",
+                "headline": "Pilih Saluran",
+                "template": {
+                    "tag": "Web",
+                    "type": "separate",
+                    "layout": "0,0,2,3",
+                    "icon": "msx-white-soft:tv",
+                    "color": "msx-glass"
+                },
                 "items": [
                     {
                         "title": "TV1",
-                        "action": "link:https://www.tvmalaysia.live/channel/tv1"
-                    }
-                ]
-            }
-        },
-        {
-            "icon": "tv",
-            "label": "TV2",
-            "data": {
-                "type": "pages",
-                "items": [
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv1"
+                    },
                     {
                         "title": "TV2",
-                        "action": "link:https://www.tvmalaysia.live/channel/tv2"
-                    }
-                ]
-            }
-        },
-        {
-            "icon": "tv",
-            "label": "TV3",
-            "data": {
-                "type": "pages",
-                "items": [
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv2"
+                    },
                     {
                         "title": "TV3",
-                        "action": "link:https://www.tvmalaysia.live/channel/tv3live"
+                        "action": "link:window:https://www.tvmalaysia.live/channel/tv3live"
                     }
                 ]
             }
