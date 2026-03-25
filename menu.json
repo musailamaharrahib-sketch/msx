@@ -1,34 +1,9 @@
 {
-    "headline": "TV Malaysia Live",
+    "headline": "Test",
     "menu": [
         {
-            "icon": "tv",
-            "label": "Saluran TV",
-            "data": {
-                "type": "pages",
-                "headline": "Pilih Saluran",
-                "template": {
-                    "tag": "Web",
-                    "type": "separate",
-                    "layout": "0,0,2,3",
-                    "icon": "msx-white-soft:tv",
-                    "color": "msx-glass"
-                },
-                "items": [
-                    {
-                        "title": "TV1",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv1"
-                    },
-                    {
-                        "title": "TV2",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv2"
-                    },
-                    {
-                        "title": "TV3",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv3live"
-                    }
-                ]
-            }
+            "label": "TV1",
+            "action": "https://www.tvmalaysia.live/channel/tv1"
         }
     ]
 }
