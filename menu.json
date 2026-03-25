@@ -16,19 +16,15 @@
                 "items": [
                     {
                         "title": "TV1",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv1"
+                        "action": "link:https://www.tvmalaysia.live/channel/tv1"
                     },
                     {
                         "title": "TV2",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv2"
+                        "action": "link:https://www.tvmalaysia.live/channel/tv2"
                     },
                     {
                         "title": "TV3",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/tv3live"
-                    },
-                    {
-                        "title": "Astro Ria",
-                        "action": "link:window:https://www.tvmalaysia.live/channel/astroria"
+                        "action": "link:https://www.tvmalaysia.live/channel/tv3live"
                     }
                 ]
             }
