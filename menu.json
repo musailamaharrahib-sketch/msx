@@ -15,12 +15,12 @@
             "items": [
                {
                   "title": "TV1",
-                  "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RTM_TV1_logo_2013.png",
-                  "action": "link:browser://https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/RTM_TV1.png?_=20211011131956",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
                },
                {
                   "title": "TV2",
-                  "image": "https://images.seeklogo.com/logo-png/28/2/rtm-tv2-logo-png_seeklogo-285137.png",
+                  "image": "https://iconape.com/wp-content/png_logo_vector/rtm-tv2-logo.png",
                   "action": "link:window:https://www.tvmalaysia.live/rtm/tv2?t=1745595182"
                },
                {
