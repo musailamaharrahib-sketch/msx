@@ -1,93 +1,110 @@
 {
-    "headline": "TV Malaysia",
-    "menu": [
-        {
-            "icon": "tv",
-            "label": "Saluran",
-            "data": {
-                "type": "pages",
-                "headline": "Pilih Saluran",
-                "template": {
-                    "type": "separate",
-                    "layout": "0,0,2,4",
-                    "icon": "msx-white-soft:tv",
-                    "color": "msx-glass"
-                },
-                "items": [
-                    {
-                        "title": "TV1",
-                        "action": "link:window:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
-                    },
-                    {
-                        "title": "TV2",
-                        "action": "link:window:https://www.tvmalaysia.live/rtm/tv2?t=1745595182"
-                    },
-                    {
-                        "title": "TV3",
-                        "action": "link:window:https://kakjem.unusualperson.com/tv3.html?t=1745595182"
-                    },
-                    {
-                        "title": "TV6",
-                        "action": "link:window:https://www.tvmalaysia.live/rtm/tv6?t=1745595182"
-                    },
-                    {
-                        "title": "DidikTV",
-                        "action": "link:window:https://kakjem.unusualperson.com/didiktv?t=1745595182"
-                    },
-                    {
-                        "title": "8TV",
-                        "action": "link:window:https://kakjem.unusualperson.com/8tv?t=1745595182"
-                    },
-                    {
-                        "title": "TV9",
-                        "action": "link:window:https://kakjem.unusualperson.com/tv9?t=1745595182"
-                    },
-                    {
-                        "title": "Astro Awani",
-                        "action": "link:window:https://kakjem.unusualperson.com/awani.html?t=1745595182"
-                    },
-                    {
-                        "title": "Bernama TV",
-                        "action": "link:window:https://kakjem.unusualperson.com/bernama.html?t=1745595182"
-                    },
-                    {
-                        "title": "TVS",
-                        "action": "link:window:https://kakjem.unusualperson.com/tvs.html?t=1745595182"
-                    },
-                    {
-                        "title": "Sukan RTM",
-                        "action": "link:window:https://www.tvmalaysia.live/rtm/sukanrtm?t=1745595182"
-                    },
-                    {
-                        "title": "TV Okey",
-                        "action": "link:window:https://www.tvmalaysia.live/rtm/tvokey?t=1745595182"
-                    },
-                    {
-                        "title": "TV AlHijrah",
-                        "action": "link:window:https://kakjem.unusualperson.com/alhijrah.html?t=1745595182"
-                    },
-                    {
-                        "title": "Oasis",
-                        "action": "link:window:https://kakjem.unusualperson.com/oasis.html?t=1745595182"
-                    },
-                    {
-                        "title": "Carnet",
-                        "action": "link:window:https://kakjem.unusualperson.com/carnet.html?t=1745595182"
-                    },
-                    {
-                        "title": "Nickelodeon",
-                        "action": "link:window:https://kakjem.unusualperson.com/nicklo.html?t=1745595182"
-                    },
-                    {
-                        "title": "Nick Jr.",
-                        "action": "link:window:https://kakjem.unusualperson.com/nickjr.html?t=1745595182"
-                    },
-                    {
-                        "title": "Moonbug",
-                        "action": "link:window:https://kakjem.unusualperson.com/moonbug.html?t=1745595182"
-                    }
-                ]
-            }
-        }
-    ]
+   "headline": "TV Malaysia",
+   "menu": [
+      {
+         "icon": "tv",
+         "label": "Saluran",
+         "data": {
+            "type": "list",
+            "headline": "Pilih Saluran",
+            "template": {
+               "type": "separate",
+               "layout": "3,0,2,3",
+               "color": "msx-glass"
+            },
+            "items": [
+               {
+                  "title": "TV1",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RTM_TV1_logo_2013.png",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/tv1?t=1745595182"
+               },
+               {
+                  "title": "TV2",
+                  "image": "https://images.seeklogo.com/logo-png/28/2/rtm-tv2-logo-png_seeklogo-285137.png",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/tv2?t=1745595182"
+               },
+               {
+                  "title": "TV3",
+                  "image": "https://i1.wp.com/aimanpsikologi.com/wp-content/uploads/2020/04/Logo-TV3-copy.png?w=512&ssl=1",
+                  "action": "link:window:https://kakjem.unusualperson.com/tv3.html?t=1745595182"
+               },
+               {
+                  "title": "TV6",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/TV6_RTM.png",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/tv6?t=1745595182"
+               },
+               {
+                  "title": "DidikTV",
+                  "image": "https://didik.tv/images/logotv2.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/didiktv?t=1745595182"
+               },
+               {
+                  "title": "8TV",
+                  "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/89/8TV_%28Malaysia%29_logo_in_English.svg/500px-8TV_%28Malaysia%29_logo_in_English.svg.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/8tv?t=1745595182"
+               },
+               {
+                  "title": "TV9",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/TV9_Malaysia_Logo_2021.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/tv9?t=1745595182"
+               },
+               {
+                  "title": "Astro Awani",
+                  "image": "https://de-digital-fortress-stg-assets.eco.astro.com.my/staging/14333fce30cb44c2dcceb9e240fb4776.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/awani.html?t=1745595182"
+               },
+               {
+                  "title": "Bernama TV",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Bernama_TV.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/bernama.html?t=1745595182"
+               },
+               {
+                  "title": "TVS",
+                  "image": "https://resizer-acm.eco.astro.com.my/tr:w-256,q:85/https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/429_144.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/tvs.html?t=1745595182"
+               },
+               {
+                  "title": "Sukan RTM",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/SUKAN_RTM.jpg",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/sukanrtm?t=1745595182"
+               },
+               {
+                  "title": "TV Okey",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/RTM_TV_Okey_logo_2019.png",
+                  "action": "link:window:https://www.tvmalaysia.live/rtm/tvokey?t=1745595182"
+               },
+               {
+                  "title": "TV AlHijrah",
+                  "image": "https://tvalhijrah.com/wp-content/uploads/2023/04/TV_Alhijrah_logo-1.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/alhijrah.html?t=1745595182"
+               },
+               {
+                  "title": "Oasis",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Astro_Oasis_%282024%29.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/oasis.html?t=1745595182"
+               },
+               {
+                  "title": "Cartoon Network",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/250px-Cartoon_Network_2010_logo.svg.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/carnet.html?t=1745595182"
+               },
+               {
+                  "title": "Nickelodeon",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/nicklo.html?t=1745595182"
+               },
+               {
+                  "title": "Nick Jr.",
+                  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/1280px-Nick_Jr._logo_2023_%28outline%29.svg.png",
+                  "action": "link:window:https://kakjem.unusualperson.com/nickjr.html?t=1745595182"
+               },
+               {
+                  "title": "Moonbug",
+                  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOW7b7d_Z9X1EPH_obrc3y5vdLRNhn7F-JGw&s",
+                  "action": "link:window:https://kakjem.unusualperson.com/moonbug.html?t=1745595182"
+               }
+            ]
+         }
+      }
+   ]
 }
